@@ -1,0 +1,38 @@
+{
+  "name": "wechat-article-pipeline",
+  "version": "0.1.0+codex.20260704154426",
+  "description": "End-to-end WeChat Official Account article pipeline from topic plan to research, writing, visuals, polishing, and draft-box publishing.",
+  "author": {
+    "name": "EthanYoQ"
+  },
+  "license": "MIT",
+  "keywords": [
+    "wechat",
+    "official-account",
+    "article",
+    "writing",
+    "wechat-mp",
+    "workflow",
+    "baoyu",
+    "publishing"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "WeChat Article Pipeline",
+    "shortDescription": "Turn a confirmed topic into a researched, illustrated, polished WeChat article draft.",
+    "longDescription": "A reusable Codex plugin for WeChat Official Account article production. After a user confirms the topic plan, Codex runs the full pipeline: source intake, evidence register, article drafting, humanized polish, Baoyu-style visual planning and prompts, image QA, markdown validation, and draft-box publishing.",
+    "developerName": "EthanYoQ",
+    "category": "Productivity",
+    "capabilities": [
+      "Write",
+      "Research",
+      "Generate Images",
+      "Publish"
+    ],
+    "defaultPrompt": [
+      "\u628a\u4eca\u5929 Gmail \u91cc\u7684\u9009\u9898\u5199\u6210\u516c\u4f17\u53f7\u8349\u7a3f\u5e76\u63a8\u9001\u8349\u7a3f\u7bb1",
+      "\u6839\u636e\u8fd9\u4e2a GitHub \u4ed3\u5e93\u751f\u6210\u516c\u4f17\u53f7\u6587\u7ae0\u5e76\u53d1\u5e03\u8349\u7a3f",
+      "\u786e\u8ba4\u9009\u9898\u540e\u81ea\u52a8\u5b8c\u6210\u6587\u7ae0\u3001\u914d\u56fe\u548c\u516c\u4f17\u53f7\u8349\u7a3f"
+    ]
+  }
+}

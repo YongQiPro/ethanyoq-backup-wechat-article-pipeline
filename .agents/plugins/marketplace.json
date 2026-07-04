@@ -1,0 +1,20 @@
+{
+  "name": "wechat-content-workflow",
+  "interface": {
+    "displayName": "WeChat Content Workflow"
+  },
+  "plugins": [
+    {
+      "name": "wechat-article-pipeline",
+      "source": {
+        "source": "local",
+        "path": "./plugins/wechat-article-pipeline"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
